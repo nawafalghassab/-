@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>المملكة العربية السعودية</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Tahoma, Arial, sans-serif;
+            background-color: #f5f7f6;
+            color: #333;
+        }
+
+        header {
+            background: linear-gradient(to left, #006c35, #0a8f4c);
+            color: white;
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        header h1 {
+            font-size: 38px;
+            margin: 0;
+        }
+
+        nav {
+            background-color: #004d26;
+            text-align: center;
+            padding: 12px;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            max-width: 1100px;
+            margin: auto;
+            padding: 40px 20px;
+        }
+
+        section h2 {
+            color: #006c35;
+            font-size: 30px;
+            margin-bottom: 15px;
+        }
+
+        .hero-img {
+            width: 100%;
+            border-radius: 12px;
+            margin-top: 20px;
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background: white;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        .card h3 {
+            color: #006c35;
+            margin-top: 0;
+        }
+
+        .btn {
+            display: inline-block;
+            background-color: #006c35;
+            color: white;
+            padding: 12px 25px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-size: 18px;
+            margin-top: 15px;
+        }
+
+        .btn:hover {
+            background-color: #004d26;
+        }
+
+        footer {
+            background-color: #004d26;
+            color: white;
+            text-align: center;
+            padding: 25px 10px;
+            margin-top: 40px;
+        }
+
+        .names {
+            margin-top: 15px;
+            font-size: 16px;
+            color: #ddd;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>المملكة العربية السعودية</h1>
+    <p>وطن المجد والتاريخ ورؤية المستقبل</p>
+</header>
+
+<nav>
+    <a href="#about">عن المملكة</a>
+    <a href="#regions">المناطق</a>
+    <a href="#vision">رؤية 2030</a>
+    <a href="#contact">تواصل</a>
+</nav>
+
+<section id="about">
+    <h2>عن المملكة</h2>
+    <p>
+        المملكة العربية السعودية هي أكبر دول شبه الجزيرة العربية،
+        وتضم أقدس بقاع الأرض: المسجد الحرام والمسجد النبوي.
+    </p>
+    <img class="hero-img" src="https://upload.wikimedia.org/wikipedia/commons/0/0d/Kingdom_Tower_Riyadh.jpg" alt="السعودية">
+</section>
+
+<section id="regions">
+    <h2>مناطق المملكة</h2>
+    <div class="cards">
+        <div class="card">
+            <h3>الرياض</h3>
+            <p>العاصمة السياسية والاقتصادية.</p>
+        </div>
+        <div class="card">
+            <h3>مكة المكرمة</h3>
+            <p>قبلة المسلمين.</p>
+        </div>
+        <div class="card">
+            <h3>المدينة المنورة</h3>
+            <p>مدينة رسول الله ﷺ.</p>
+        </div>
+        <div class="card">
+            <h3>المنطقة الشرقية</h3>
+            <p>مركز الطاقة والصناعة.</p>
+        </div>
+    </div>
+</section>
+
+<section id="vision">
+    <h2>رؤية السعودية 2030</h2>
+    <p>
+        رؤية طموحة تهدف إلى تنويع الاقتصاد،
+        وتحسين جودة الحياة، وبناء مستقبل مزدهر.
+    </p>
+</section>
+
+<section id="contact">
+    <h2>تواصل معنا</h2>
+    <p>للاستفسار أو التواصل اضغط الزر التالي:</p>
+    <a class="btn" href="mailto:info@saudi.com">راسلنا</a>
+</section>
+
+<footer>
+    <p>© 2025 | موقع عن المملكة العربية السعودية</p>
+    <div class="names">
+        نواف الغصاب | طلال السيف | عبدالرحمن الجبرين | مشاري الجبرين | محمد بن فهد
+    </div>
+</footer>
+
+</body>
+</html>
